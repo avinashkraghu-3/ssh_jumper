@@ -6,7 +6,7 @@ Host server-host-name-x.x.x.x  # -- //comment
  HostName x.x.x.x #host ip address
  User root
  Port 22
- IdentityFile ~/.ssh/ssh_key # private key ssh server permission should be 4000
+ IdentityFile ~/.ssh/ssh_key # private key ssh server permission should be 400
  ProxyJump ssh-server
 
 
